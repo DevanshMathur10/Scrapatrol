@@ -1,0 +1,26 @@
+import gmplot
+coords=(26.936549, 75.789425,18)
+
+def map():
+    
+    gmap=gmplot.GoogleMapPlotter(26.936549, 75.789425,18)
+    gmap.marker(26.936549, 75.789425, color='cornflowerblue')
+    hospitallats, hospitallngs = zip(*[
+    (26.936622, 75.789390),
+    (26.936541, 75.789593),
+    (26.936487, 75.789489),
+    (26.936403, 75.789445)
+    ])
+    gmap.scatter(hospitallats, hospitallngs, color='#ff0000', size=80)
+
+    shelterlats,shelterlngs=zip(*[
+    (26.936527, 75.789392),
+    (26.9366312,75.7892678),
+    (26.936650, 75.789501),
+    (26.936395, 75.789473),
+    (26.936439, 75.789310)
+    ])
+    gmap.scatter(shelterlats,shelterlngs, color='green', size=80)
+
+    gmap.draw("C:/Users/DELL/Documents/VS/HACKATHONS/SCRAPATROL/map.html")
+
