@@ -20,9 +20,9 @@ We wanted to build something that would help in the betterment of the environmen
 - Functions 
 
 >1. This app has a daily waste management goal which motivates the user to dump, reduce and recycle waste.
-2. It also has a button for different articles on the internet from which the user can learn about waste management. 
-3. Another function of our app is the use of google maps which shows the user his/her location and nearby location of degradable and non-degradable dustbins.
-4. We also have a contact feature from which the user can contact the government organizations and NGO's which can help in rectifying the environment.
+>2. It also has a button for different articles on the internet from which the user can learn about waste management. 
+>3. Another function of our app is the use of google maps which shows the user his/her location and nearby location of degradable and non-degradable dustbins.
+>4. We also have a contact feature from which the user can contact the government organizations and NGO's which can help in rectifying the environment.
 
 - Tech Stack
 
